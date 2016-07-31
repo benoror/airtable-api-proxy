@@ -1,0 +1,20 @@
+{
+  "name": "procevi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/procevi/procevi.git"
+  },
+  "author": "",
+  "homepage": "https://bitbucket.org/procevi/procevi#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
