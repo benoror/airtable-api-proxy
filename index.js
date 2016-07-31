@@ -24,7 +24,7 @@ var apiProxy = proxy(options);
 var app = express();
 
 app.use('/api', apiProxy);
-app.listen(2010);
+app.listen(process.env.PORT || 2010);
 
 module.exports = app;
 
