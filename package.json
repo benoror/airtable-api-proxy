@@ -16,10 +16,10 @@
   "author": "",
   "homepage": "https://bitbucket.org/procevi/procevi#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "http-proxy-middleware": "^0.17.0"
   },
   "devDependencies": {
-    "http-proxy-middleware": "^0.17.0",
     "nodemon": "^1.10.0"
   }
 }
