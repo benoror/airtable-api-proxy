@@ -1,12 +1,13 @@
 {
-  "name": "procevi",
+  "name": "airtable-api-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Airtable API Proxy (for Heroku)",
   "main": "index.js",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
-    "start": "heroku local",
+    "start": "./node_modules/.bin/nodemon",
+    "start-heroku": "heroku local",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +15,6 @@
     "url": "git+ssh://git@bitbucket.org/procevi/procevi.git"
   },
   "author": "",
-  "homepage": "https://bitbucket.org/procevi/procevi#readme",
   "dependencies": {
     "express": "^4.14.0",
     "http-proxy-middleware": "^0.17.0"
