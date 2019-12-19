@@ -3,6 +3,7 @@
 Node API Proxy boilerplate for Airtable
 
 Blog post: https://medium.com/@benoror/creating-an-ember-addon-for-airtable-api-d9e38d7bef97#.33q0r7hhm
+
 Ember Airtable: https://github.com/benoror/ember-airtable
 
 ### Simple proxy, Non-Auth
